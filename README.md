@@ -24,3 +24,7 @@ extensive amounts of sampling.
     - For the methods to produce meaningful results, the data needs to be quite challenging for the models to make uncertainty emerge. Based on that criteria I picked LiveBench as our main target dataset. Top models seem to score <65% overall. It also features a range of different domains from math and coding to instruction following and language comprehension. LiveBech is split into multiple datasets oin hugging face based on domain. For this project, I will pool data from these multiuple dataset, mix it and combine them in one pooled dataset (see `data_prep.py`).
 
 
+## References
+
+1. Kuhn, L., Gal, Y., & Farquhar, S. (2023). **Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation**. *arXiv preprint arXiv:2302.09664*.
+   - Published as: Farquhar, S., Kossen, J., Kuhn, L. et al. **Detecting hallucinations in large language models using semantic uncertainty**. *Nature* **630**, 625–630 (2024). [https://doi.org/10.1038/s41586-024-07421-0](https://doi.org/10.1038/s41586-024-07421-0)
