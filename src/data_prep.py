@@ -13,17 +13,10 @@ Usage:
 """
 
 from pathlib import Path
-from typing import List, Tuple, Any, Dict
+from typing import List, Tuple
 
 import pandas as pd
-
-try:
-    from datasets import load_dataset  # type: ignore
-except ImportError:
-    raise ImportError(
-        "The 'datasets' library is required. Install it via:\n"
-        "  pip install datasets"
-    )
+from datasets import load_dataset 
 
 # -----------------------------
 # CONFIG
